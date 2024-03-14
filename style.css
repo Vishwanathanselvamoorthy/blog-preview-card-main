@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Figtree;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  padding: 150px 25px;
+}
+
+.blog-card {
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  border: 1px solid black;
+  box-shadow: 10px 10px;
+}
+
+.blog-card img {
+  border-radius: 15px;
+}
+
+.blog-card #para1 {
+  background-color: hsl(47, 88%, 63%);
+  width: max-content;
+  padding: 5px 15px;
+  margin: 15px 0px;
+  font-weight: 900;
+  border-radius: 5px;
+}
+.blog-card #para2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(0, 0%, 7%);
+  margin: 15px 0px;
+}
+.blog-card h1 {
+  font-size: 20px;
+  margin: 10px 0px;
+  font-weight: 900;
+}
+.blog-card h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+.blog-card #para3 {
+  color: hsl(0, 0%, 50%);
+  font-weight: 600;
+  font-size: 15px;
+  margin: 18px 0px;
+}
+
+.blog-card .profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.blog-card .profile h2 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 2000px) {
+  body {
+    padding: 150px 550px;
+  }
+}
